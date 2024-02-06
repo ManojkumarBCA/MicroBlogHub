@@ -1,0 +1,25 @@
+{
+  "name": "microbloghub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [
+    "blogging-website",
+    "blog",
+    "blogging-backend"
+  ],
+  "author": "MANOJ KUMAR",
+  "license": "ISC",
+  "dependencies": {
+    "email-validator": "^2.0.4",
+    "express": "^4.18.0",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.1",
+    "nodemon": "^2.0.15"
+  }
+}
